@@ -20,6 +20,13 @@ A collection of personal and experimental projects, each designed to explore a s
 
 ---
 
+## 🔐 IdentityForge
+- **Goal:** Build a complete user management and authentication system from scratch
+- **Stack:** React SPA, shadcn/ui, TanStack Form, .NET Web API, PostgreSQL, JWT
+- **Flow:** Users can register and log in via email/password, Google, or GitHub. All logic (login, OAuth, tokens, password recovery, email confirmation) is handled by the backend using Microsoft Identity. Frontend uses TanStack Form + Zod for form validation and calls the backend API directly. JWTs are used for protected routes. Future: admin interface for user roles, audit logs, and 2FA support.
+
+---
+
 ## 🛠️ PayTrack
 - **Goal:** Track bills with due dates, "mark as paid", and alert users before expiration
 - **Stack:** React + Vite, TanStack, Clerk, shadcn/ui, .NET Web API backend, PostgreSQL
